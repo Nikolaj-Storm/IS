@@ -1,10 +1,11 @@
 
 TITLE: 
-Architect - 100% Fully Responsive Free HTML5 Bootstrap Template
+The Instant Store
 
 AUTHOR:
-DESIGNED & DEVELOPED by FreeHTML5.co
+THIS WEBSITE WAS BUILD BY NIKOLAJ STORM FOR THEINSTANTSTORE BASED ON A TEMPLATE ORIGINALLY DESIGNED & DEVELOPED by FreeHTML5.co
 
+THEY CAN BE FOUND AT:
 Website: http://freehtml5.co/
 Twitter: http://twitter.com/fh5co
 Facebook: http://facebook.com/fh5co
