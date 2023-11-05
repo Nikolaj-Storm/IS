@@ -22,23 +22,26 @@
 	<link href="https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400i" rel="stylesheet">
 	
 	<style> 
-.img-responsive {
-    max-width: 100%;
-    height: auto;
-}
-.text-container {
-    display: flex;
-    flex-direction: column;
-    text-align: left; /* Align text to the left within the column */
-}
-
-.image-container {
-    display: flex;
-    align-items: center;
-}
-
-
-
+	.img-responsive {
+	    max-width: 100%;
+	    height: auto;
+	}
+	.text-container {
+	    display: flex;
+	    flex-direction: column;
+	    text-align: left; /* Align text to the left within the column */
+	}
+	.image-container {
+	    display: flex;
+	    align-items: center;
+	}
+	
+	/* Hide images on mobile devices */
+	@media (max-width: 767px) {
+	    .image-container img {
+	        display: none;
+	    }
+	}
 	</style>
 
 	<!-- Animate.css -->
@@ -112,7 +115,7 @@
 					
 					<div class="row">
 						<div class="col-md-8">
-							<div class="text-container">
+							<div a class="text-container">
 								<h1>Social Media Marketing</h1>
 								<p>
 									Our commitment to your success doesn't end with providing you with a prime location. We go the extra mile by helping you promote your pop-up store effectively, leveraging the expertise of our brilliant marketing partner. With our extensive social media marketing strategies, we ensure that your pop-up store is not just highlighted but celebrated well in advance. This ensures a steady and robust flow of potential customers, all excited and ready to explore your unique offerings. We take the guesswork out of marketing and connect your brand with the right audience. Our marketing efforts are a collaborative endeavor, ensuring that your brand message aligns seamlessly with your pop-up store's identity.
@@ -197,4 +200,3 @@
 
 	</body>
 </html>
-
