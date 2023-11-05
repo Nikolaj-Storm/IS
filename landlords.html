@@ -22,23 +22,26 @@
 	<link href="https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400i" rel="stylesheet">
 	
 	<style> 
-.img-responsive {
-    max-width: 100%;
-    height: auto;
-}
-.text-container {
-    display: flex;
-    flex-direction: column;
-    text-align: left; /* Align text to the left within the column */
-}
-
-.image-container {
-    display: flex;
-    align-items: center;
-}
-
-
-
+	.img-responsive {
+	    max-width: 100%;
+	    height: auto;
+	}
+	.text-container {
+	    display: flex;
+	    flex-direction: column;
+	    text-align: left; /* Align text to the left within the column */
+	}
+	.image-container {
+	    display: flex;
+	    align-items: center;
+	}
+	
+	/* Hide images on mobile devices */
+	@media (max-width: 767px) {
+	    .image-container img {
+	        display: none;
+	    }
+	}
 	</style>
 
 	<!-- Animate.css -->
@@ -93,7 +96,7 @@
 					<h2>What we can do for you<br><br></h2>
 
 
-					<div class="row">
+					<div class "row">
 						<div class="col-md-8">
 							<div class="text-container">
 								<h1>Utilization of idle periods</h1>
@@ -101,7 +104,7 @@
 									At any given time, 7.3% of retail stores in Central Copenhagen stand empty, losing millions in potential revenue for landlords every single month. And this is not just a temporary issue, according to Ejendom Danmark, national idle periods have risen almost 200% since 2000.
 This is largely due to the rise of e-commerce. But, the data shows that there is still tremendous value to be gained for e-commerce companies from having physical contact with their customers through pop-up shops. 
 We want to connect your retail spaces that are temporarily empty, with companies looking for temporary physical locations. This will show other potential renters the possibilities of the space, connect you with our companies (who could be potential long-term renters), and most importantly put money in your pockets by utilizing idle periods.
-
+								</p>
 								<h2><br></h2>
 							</div>
 						</div>
@@ -112,7 +115,7 @@ We want to connect your retail spaces that are temporarily empty, with companies
 						</div>
 					</div>	
 					
-					<div class="row">
+					<div class "row">
 						<div class="col-md-8">
 							<div class="text-container">
 								<h1>No more annoying renters</h1>
@@ -127,7 +130,6 @@ No more wasting time emailing back and forth about things that don’t really ma
 - No violation of operating hours<br>
 - No rentals left uncleaned<br>
 - … No bullshit wasting your time and money
-
 								</p>
 								<h2><br></h2>
 							</div>
@@ -140,14 +142,18 @@ No more wasting time emailing back and forth about things that don’t really ma
 					</div>					
 					
 
-					<div class="row">
+					<div class "row">
 						<div class="col-md-8">
 							<div class="text-container">
 								<h1>Long term partnership</h1>
 								<p>
 									We are not in it for the short term. At The Instant Store, we want to build partnerships lasting as long as ourselves. This means that, once you partner with us, we are not looking to make a quick one-time deal. We are looking for partners with whom we can have a healthy long-term relationship. Consistently finding short-term renters, improving the exposure of retail spaces, introducing potential long-term renters, and generating rental revenue where there wouldn’t be any otherwise.
+								</p>
+								<h2><br
+Certainly, here's the continuation of the code:
 
-								<h2><br></h2>
+```html
+								</h2>
 							</div>
 						</div>
 						<div class="col-md-4">
@@ -158,6 +164,8 @@ No more wasting time emailing back and forth about things that don’t really ma
 					</div>	
 
 					
+				</div>
+			</div>
 		</div>
 			<div class="row copyright">
 				<div class="col-md-12 text-center">
@@ -191,4 +199,6 @@ No more wasting time emailing back and forth about things that don’t really ma
 
 	</body>
 </html>
+```
 
+This code includes the modification to hide images within the `.image-container` on mobile devices with a maximum width of 767 pixels, just like in the previous example. Images will be hidden on screens with smaller widths, typically representing mobile devices.
